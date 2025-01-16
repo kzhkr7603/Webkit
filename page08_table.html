@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>page08_table</title>
+    </head>
+    <body>
+        <h1>table 태그</h1>
+        <!-- 3행 2열 -->
+        <table border="1" width="200" height="150">
+            <caption>
+                월별 저축액
+            </caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$200</td>
+            </tr>
+        </table>
+        <hr color="red" />
+        <h2>우리반 연락처</h2>
+        <!-- 3행 4열 테이블 
+         폭:80% 높이: 200px
+         -->
+        <table
+            border="1"
+            width="80%"
+            height="200"
+            align="center"
+            bgcolor="beige"
+            bordercolor="maroon"
+            cellspacing="7"
+            cellpadding="20"
+            background="images/logo.png"
+        >
+            <thead>
+                <tr bgcolor="navy" style="color: white">
+                    <th>번호</th>
+                    <th>이름</th>
+                    <th>연락처</th>
+                    <th>주소</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>김종화</td>
+                    <td>010-2840-7603</td>
+                    <td>대구 달서구 도원동</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>김윤환</td>
+                    <td>010-6878-8261</td>
+                    <td>대구 달서구 진천동</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

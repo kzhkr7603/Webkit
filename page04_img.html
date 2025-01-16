@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>page04_img</title>
+    </head>
+    <body>
+        <h1>이미지 태그 - img</h1>
+        <p>단독태그, inline 요소</p>
+        <img src="images/1.jpg" alt="대체설명은 여기에 넣어요" width="200" />
+        <!-- 상대경로 : 실행중인 html파일이 있는 경로를 기준으로
+         파일을 찾는 방식
+         .  : 현재 디렉토리
+         .. : 현재 디렉토토리의 한단계 위(상위 디렉토리)
+         ../../파일명 : 2단계 상위 디렉토리에서 파일을 찾음음
+         -->
+        <img src="images/2.jpg" width="200" />
+        <img src="images/3.jpg" width="200" />
+        <!-- 절대경로 : 파일 시스템이나 서버의 루트 디렉토리에서 시작하여 해당 파일의 경로를 전체적으로 지정하는 방식-->
+        <img src="images/4.jpg" width="200" />
+        <br />
+        <figure>
+            <img
+                width="60%"
+                src="https://ssl.pstatic.net/melona/libs/1521/1521750/5bcc23548247ed433f08_20250115150549787.jpg"
+            />
+        </figure>
+        <figcaption>배너 광고</figcaption>
+    </body>
+</html>
