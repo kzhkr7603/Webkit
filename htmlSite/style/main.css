@@ -1,0 +1,50 @@
+a,
+.site {
+    text-decoration: none;
+    color: rgb(117, 68, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: rgb(117, 68, 0);
+}
+
+.info {
+    text-align: center;
+}
+
+.image {
+    padding: 3px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    padding: 3px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.coffee,
+.dessert {
+    text-align: center;
+}
+
+ol,
+ul {
+    display: inline-block;
+    text-align: left;
+}
